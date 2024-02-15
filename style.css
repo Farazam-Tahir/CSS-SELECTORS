@@ -1,0 +1,66 @@
+/* UNIVERSAL SELECTOR */
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* TYPE SELECTOR */
+h1{
+    color: brown;
+}
+
+/* CLASS SELECTOR */
+.pInsideDiv{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ID SELECTOR */
+#pInside6{
+    background-color: aqua;
+}
+
+/* PSEUDO CLASS SELECTOR */
+#pInside7:hover{
+    background-color: aqua;
+    color: green;
+}
+
+/* GROUPING SELECTOR */
+p, h1, h2,a{
+    font-style: italic;
+}
+
+/* ATTRIBUTE SELECTOR */
+[class |="pInside5"]{
+    background-color: blueviolet;
+}
+
+/* PSEUDO ELEMENT SELECTOR */
+.pOutsideDiv::first-letter{
+    font-size: xx-large;
+}
+.pOutsideDiv1::first-line{
+font-size: x-large;
+}
+
+/* DESCENDANT SELECTOR */
+div p{
+    background-color: yellow;
+    color: white;
+}
+
+/* CHILD SELECTOR */
+div > p{
+    font-size: x-large;
+}
+
+/* ADJACENT SIBLING SELECTOR */
+div + p{
+    background-color: red;
+}
+
+/* GENERAL SIBLING SELECTOR */
+div ~p{
+    font-weight: 900;
+}
